@@ -38,6 +38,16 @@ Save `Tools/envcan-geektool.sh` anywhere on your Mac (for example `~/Documents/G
 chmod +x ~/Documents/GeekTool/envcan-geektool.sh
 ```
 
+### Optional: keep `~/Documents/GeekTool/` pointed at your git checkout
+
+If you want GeekTool to always run the **exact file from your repo** (great for verifying the “download + run” experience while developing), make the Documents path a symlink:
+
+```bash
+mkdir -p ~/Documents/GeekTool
+ln -sf "$PWD/Tools/envcan-geektool.sh" ~/Documents/GeekTool/envcan-geektool.sh
+chmod +x "$PWD/Tools/envcan-geektool.sh"
+```
+
 ## Find your coordinates (URL)
 
 1. Open Environment Canada’s site and search your location.
