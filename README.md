@@ -8,6 +8,10 @@ Small **shell + Python** script for [GeekTool](https://www.tynsoe.org/en/geektoo
 
 Data source: [Environment Canada weather](https://weather.gc.ca/) (Government of Canada).
 
+## Preview
+
+![GeekTool Environment Canada weather widget](assets/weather-widget.png)
+
 ## Requirements
 
 - macOS
